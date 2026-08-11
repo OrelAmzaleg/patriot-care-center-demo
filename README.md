@@ -115,6 +115,7 @@ Everything below is intentionally illustrative for the demo and clearly marked o
 | Current site | This redesign |
 |---|---|
 | Generic, dated, stock-image feel | Dignified navy/gold system, serif headings, custom shield emblem |
+| No motion / flat imagery | Cinematic AI-generated brand film (physician–veteran handshake) on the home page |
 | Vague service descriptions | Each service explains *what it is, who it's for, what to bring, how long it takes* |
 | Empty leadership section | Real 5-person leadership team with photos, titles, and bios |
 | Weak CTAs | Clear, repeated "Book an Exam" path to a real booking form |

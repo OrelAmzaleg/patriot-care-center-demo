@@ -62,6 +62,14 @@
     revealEls.forEach(function (el) { io.observe(el); });
   }
 
+  /* ---------- Brand film: honor reduced-motion (no autoplay/loop) ---------- */
+  var film = document.getElementById("brand-film");
+  if (film && reduce) {
+    film.removeAttribute("autoplay");
+    film.removeAttribute("loop");
+    try { film.pause(); } catch (e) {}
+  }
+
   /* ---------- Contact form (front-end only demo) ---------- */
   var form = document.getElementById("contact-form");
   if (form) {

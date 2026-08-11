@@ -628,9 +628,9 @@ figure.card figcaption { font-weight: 600; }
 .cta-band p { color: var(--text-on-navy-muted); max-width: 56ch; margin-inline: auto; margin-top: 1rem; }
 .cta-band .btn-row { margin-top: 1.8rem; }
 
-/* Brand film (drop-in video band — activate when the Higgsfield clip is ready) */
-.video-band { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid var(--border); background: var(--navy-900); }
-.video-band video { display: block; width: 100%; height: auto; }
+/* Brand film video band */
+.video-band { position: relative; max-width: 1000px; margin-inline: auto; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid var(--border); background: var(--navy-900); }
+.video-band video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: var(--navy-900); }
 
 /* Note / disclaimer strip */
 .notice {
