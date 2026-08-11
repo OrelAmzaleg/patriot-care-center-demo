@@ -103,7 +103,7 @@ Everything below is intentionally illustrative for the demo and clearly marked o
 
 - **Addresses & suite numbers** — formatted, plausible placeholders per city. Replace with verified addresses.
 - **Phone numbers** — use the reserved **555-01xx** fictional range. Replace with real clinic lines.
-- **Leadership bios & photos** — the founder (**Steven Bohbot**) is named from the client's own public site; the remaining clinical roles are shown as *positions*, ready for real names, credentials, and headshots. We deliberately do **not** invent doctors or credentials for a real medical practice.
+- **Leadership team** — the About page now shows the **real 5-person team** (Steven Bohbot · CEO, Dr. Babak Rostami · CMO, Dr. David Cohen · Physician, Tara Chriki · COO, Tom Bohbot · CTO) with names, titles, bios, and headshots sourced from the client's current site. Swap for higher-resolution photography on launch.
 - **Downloadable forms** — the three form cards link to `#` placeholders; wire to the client's real PDFs.
 - **Contact form** — front-end only; connect to an email/CRM endpoint (e.g. Formspree, or GoBoost automation) for production.
 - **Insurance / accepted plans** — to be confirmed with the client.
@@ -116,7 +116,7 @@ Everything below is intentionally illustrative for the demo and clearly marked o
 |---|---|
 | Generic, dated, stock-image feel | Dignified navy/gold system, serif headings, custom shield emblem |
 | Vague service descriptions | Each service explains *what it is, who it's for, what to bring, how long it takes* |
-| Empty leadership section | Named founder (Steven Bohbot) + structured role cards ready for real bios/photos |
+| Empty leadership section | Real 5-person leadership team with photos, titles, and bios |
 | Weak CTAs | Clear, repeated "Book an Exam" path to a real booking form |
 | No testimonials / trust signals | Trust stat bar, HIPAA badges, representative testimonials |
 | No insurance / privacy info | Dedicated insurance + HIPAA sections and a full FAQ |
