@@ -1,0 +1,12 @@
+{
+  "name": "Patriot Care Center",
+  "short_name": "Patriot Care",
+  "description": "Independent Medical Exams, VA C&P exams, and firefighter physicals for veterans and first responders.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1f38",
+  "theme_color": "#0a1f38",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

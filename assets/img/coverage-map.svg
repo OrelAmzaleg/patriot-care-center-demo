@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" role="img" aria-label="Coverage map showing Patriot Care Center clinics in Eureka and Beverly Hills California, Cheyenne Wyoming, and Lubbock Texas">
+  <defs>
+    <radialGradient id="mapBg" cx="60%" cy="20%" r="90%">
+      <stop offset="0" stop-color="#12365d"/>
+      <stop offset="100%" stop-color="#0a1f38"/>
+    </radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="rgba(255,255,255,.09)"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="700" height="460" fill="url(#mapBg)"/>
+  <rect width="700" height="460" fill="url(#dots)"/>
+  <!-- faint stylized landmass -->
+  <path d="M70 150 C130 120 210 118 300 128 C400 138 470 120 560 150 C610 168 640 210 620 260 C600 315 520 340 430 335 C360 331 330 360 250 350 C160 339 96 320 78 262 C66 224 60 178 70 150 Z"
+        fill="rgba(255,255,255,.05)" stroke="rgba(193,151,77,.28)" stroke-width="1.5"/>
+  <!-- connecting arcs -->
+  <g fill="none" stroke="rgba(224,196,141,.45)" stroke-width="1.6" stroke-dasharray="4 6">
+    <path d="M110 165 Q200 100 300 158"/>
+    <path d="M300 158 Q360 210 372 292"/>
+    <path d="M130 250 Q120 205 110 165"/>
+  </g>
+  <!-- pins -->
+  <g font-family="Arial, sans-serif" font-size="15" fill="#ffffff">
+    <g transform="translate(110,165)">
+      <circle r="8" fill="#c1974d" filter="url(#glow)"/><circle r="3.4" fill="#0a1f38"/>
+      <text x="14" y="-6" font-weight="700">Eureka, CA</text>
+      <text x="14" y="12" fill="#9fb2cc" font-size="12">Northern California</text>
+    </g>
+    <g transform="translate(130,250)">
+      <circle r="8" fill="#c1974d" filter="url(#glow)"/><circle r="3.4" fill="#0a1f38"/>
+      <text x="14" y="-6" font-weight="700">Beverly Hills, CA</text>
+      <text x="14" y="12" fill="#9fb2cc" font-size="12">Greater Los Angeles</text>
+    </g>
+    <g transform="translate(300,158)">
+      <circle r="8" fill="#c1974d" filter="url(#glow)"/><circle r="3.4" fill="#0a1f38"/>
+      <text x="14" y="-6" font-weight="700">Cheyenne, WY</text>
+      <text x="14" y="12" fill="#9fb2cc" font-size="12">Front Range</text>
+    </g>
+    <g transform="translate(372,292)">
+      <circle r="8" fill="#c1974d" filter="url(#glow)"/><circle r="3.4" fill="#0a1f38"/>
+      <text x="14" y="-6" font-weight="700">Lubbock, TX</text>
+      <text x="14" y="12" fill="#9fb2cc" font-size="12">West Texas</text>
+    </g>
+  </g>
+</svg>

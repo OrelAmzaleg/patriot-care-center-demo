@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Patriot Care Center — Medical care with the dignity our veterans and first responders earned">
+  <defs>
+    <radialGradient id="ogBg" cx="80%" cy="-10%" r="120%">
+      <stop offset="0" stop-color="#163f6b"/>
+      <stop offset="45%" stop-color="#0d2a4a"/>
+      <stop offset="100%" stop-color="#0a1f38"/>
+    </radialGradient>
+    <linearGradient id="ogShield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f5288"/>
+      <stop offset="1" stop-color="#0a1f38"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <g opacity="0.06" fill="none" stroke="#ffffff" stroke-width="2">
+    <circle cx="1000" cy="120" r="220"/>
+    <circle cx="1000" cy="120" r="320"/>
+    <circle cx="1000" cy="120" r="420"/>
+  </g>
+  <rect x="80" y="300" width="70" height="4" fill="#c1974d"/>
+  <text x="80" y="270" font-family="Georgia, serif" font-size="26" letter-spacing="6" fill="#e0c48d">PATRIOT CARE CENTER</text>
+  <text x="78" y="360" font-family="Georgia, serif" font-size="62" font-weight="700" fill="#ffffff">Care with the dignity</text>
+  <text x="78" y="430" font-family="Georgia, serif" font-size="62" font-weight="700" fill="#ffffff">our veterans earned.</text>
+  <text x="80" y="492" font-family="Arial, sans-serif" font-size="26" fill="#c6d4e6">Independent Medical Exams · VA C&amp;P · Firefighter Physicals · HIPAA-compliant</text>
+  <text x="80" y="540" font-family="Arial, sans-serif" font-size="22" fill="#9fb2cc">Beverly Hills · Cheyenne · Eureka · Lubbock</text>
+  <!-- shield -->
+  <g transform="translate(980,300) scale(1.9)">
+    <path d="M24 2.5 L42.5 8.5 V23.5 C42.5 34.2 34.4 42.4 24 45.5 C13.6 42.4 5.5 34.2 5.5 23.5 V8.5 Z" fill="url(#ogShield)" stroke="#c1974d" stroke-width="1.4"/>
+    <path d="M21 16 h6 v5 h5 v6 h-5 v6 h-6 v-6 h-5 v-6 h5 z" fill="#c1974d"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Patriot Care Center shield emblem">
+  <defs>
+    <linearGradient id="pccShield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#163f6b"/>
+      <stop offset="1" stop-color="#0a1f38"/>
+    </linearGradient>
+  </defs>
+  <path d="M24 2.5 L42.5 8.5 V23.5 C42.5 34.2 34.4 42.4 24 45.5 C13.6 42.4 5.5 34.2 5.5 23.5 V8.5 Z"
+        fill="url(#pccShield)" stroke="#c1974d" stroke-width="1.4"/>
+  <path d="M24 8 L38 12.5 V23.5 C38 31.6 31.9 38.2 24 41 C16.1 38.2 10 31.6 10 23.5 V12.5 Z"
+        fill="none" stroke="rgba(224,196,141,.35)" stroke-width="1"/>
+  <!-- medical cross -->
+  <path d="M21 16 h6 v5 h5 v6 h-5 v6 h-6 v-6 h-5 v-6 h5 z" fill="#c1974d"/>
+  <!-- star accent -->
+  <path d="M24 4.6 l1.05 2.15 2.37.34-1.71 1.67.4 2.36L24 9.96l-2.11 1.11.4-2.36-1.71-1.67 2.37-.34z" fill="#e0c48d"/>
+</svg>

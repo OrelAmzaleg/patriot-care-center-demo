@@ -1,0 +1,10 @@
+{
+  "name": "patriot-care-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local demo website for Patriot Care Center — a redesign concept (static, no build step). Built by GoBoost.",
+  "scripts": {
+    "dev": "npx --yes serve . -l 5173",
+    "start": "npx --yes serve . -l 5173"
+  }
+}

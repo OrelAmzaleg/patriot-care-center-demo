@@ -1,0 +1,12 @@
+# Dependencies (site is static — none required to run)
+node_modules/
+
+# Internal evidence artifacts (not part of the site)
+screenshots/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
